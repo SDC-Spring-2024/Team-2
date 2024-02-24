@@ -40,17 +40,9 @@ This is where you give instructions on how to run your project
 
    ```
 
-1. Install NPM packages
+1. Follow instructions to install the frontend, located in the [frontend's README](frontend)
 
-   ```sh
-   npm install
-   ```
-
-1. Enter your API in `config.js`
-
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Follow instructions to install the backend, located in the [backend's README](backend)
 
 ## Demo
 
