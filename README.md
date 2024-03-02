@@ -1,4 +1,4 @@
-# \[Project Title\]
+# TinderJobs
 
 ## Basic Info
 
@@ -12,7 +12,7 @@
 
 ### Project Description
 
-Describe the goal of your project here.
+An Tinder-like app for job searching.
 
 ### Built With
 
@@ -20,16 +20,6 @@ Describe the goal of your project here.
 - Frontend: React
 
 ## Getting Started
-
-This is where you give instructions on how to run your project
-
-### Prerequisites
-
-- npm (Node JS)
-
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
