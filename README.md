@@ -1,4 +1,4 @@
-# \[Project Title\]
+# TinderJobs
 
 ## Basic Info
 
@@ -6,13 +6,13 @@
 
 - Caleb Hamilton (Project Lead)
 - Hongsub Lee(Backend)
-- Kishore Rajan
+- Kishore Rajan(Front end)
 - Mahesh (Backend)
 - Suraj Naveen
 
 ### Project Description
 
-Describe the goal of your project here.
+An Tinder-like app for job searching.
 
 ### Built With
 
@@ -20,16 +20,6 @@ Describe the goal of your project here.
 - Frontend: React
 
 ## Getting Started
-
-This is where you give instructions on how to run your project
-
-### Prerequisites
-
-- npm (Node JS)
-
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
@@ -40,9 +30,19 @@ This is where you give instructions on how to run your project
 
    ```
 
-1. Follow instructions to install the frontend, located in the [frontend's README](frontend)
+1. From here, you can either install [Docker Desktop](https://docs.docker.com/desktop/) and run:
 
-1. Follow instructions to install the backend, located in the [backend's README](backend)
+    ```sh
+    docker compose up -d
+    ```
+
+    The backend is accessible from `localhost:5000` and the frontend from `localhost:5173`.
+
+    Or, if you'd like to manually install all requirements, follow the steps below.
+
+1. (Manual) Follow instructions to install the frontend, located in the [frontend's README](frontend)
+
+1. (Manual) Follow instructions to install the backend, located in the [backend's README](backend)
 
 ## Demo
 
