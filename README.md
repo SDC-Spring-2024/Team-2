@@ -5,7 +5,7 @@
 ### Team Members
 
 - Caleb Hamilton (Project Lead)
-- Hongsub Lee
+- Hongsub Lee(Backend)
 - Kishore Rajan
 - Mahesh
 - Suraj Naveen
