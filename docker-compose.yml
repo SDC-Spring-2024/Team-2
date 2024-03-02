@@ -1,0 +1,30 @@
+version: "3.8"
+services:
+  frontend:
+    image: node:20-buster-slim
+    command: >
+      bash -c "
+        npm i
+        npm run dev -- --host 0.0.0.0
+      "
+    ports:
+      - "5173:5173"
+    working_dir: /frontend
+    volumes:
+      - ./frontend:/frontend
+
+  backend:
+    image: python:3.11-slim-buster
+    command: >
+      bash -c "
+        export POETRY_HOME=/opt/poetry
+        python3 -m venv /opt/poetry
+        /opt/poetry/bin/pip install poetry==1.7.1
+        /opt/poetry/bin/poetry install
+        /opt/poetry/bin/poetry run flask --app backend run --debug --host 0.0.0.0
+      "
+    ports:
+      - "5000:5000"
+    working_dir: /backend
+    volumes:
+      - ./backend:/backend
