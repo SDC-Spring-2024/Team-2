@@ -6,7 +6,7 @@
 
 - Caleb Hamilton (Project Lead)
 - Hongsub Lee(Backend)
-- Kishore Rajan
+- Kishore Rajan(Front end)
 - Mahesh (Backend)
 - Suraj Naveen
 
