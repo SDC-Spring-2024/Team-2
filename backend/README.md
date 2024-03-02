@@ -22,5 +22,5 @@ poetry install
 To run the backend, use the following command:
 
 ```sh
-poetry run python -m backend
+poetry run flask --app backend run --debug
 ```
